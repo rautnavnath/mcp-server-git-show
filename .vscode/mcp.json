@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "gitshow-mcp-server-stdio": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/dist/index.js"]
+    },
+    
+    // "gitshow-mcp-server-streamable-http": {
+    //   "type": "http",
+    //   "url": "http://localhost:3088/mcp"
+    // },
+  }
+}
