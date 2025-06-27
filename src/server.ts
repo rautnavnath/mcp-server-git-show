@@ -10,7 +10,7 @@ export function ensureGitRepo(): boolean {
     console.error("📁 MCP server running in directory:", process.cwd());
     return true;
   } catch (err) {
-    console.error("❌ Not in a Git repo or can't resolve root:", err);
+    console.error("❌ Not in a Git repo or can't resolve root. Error:", err);
     return false;
   }
 }

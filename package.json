@@ -1,10 +1,13 @@
 {
-  "name": "gitshow-mcp-server",
-  "version": "0.1.0",
+  "name": "mcp-server-git-show",
+  "version": "0.1.1",
   "type": "module",
   "main": "dist/server.js",
   "bin": {
-    "gitshow-mcp-server": "dist/index.js"
+    "mcp-server-git-show": "dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsc && shx chmod +x dist/index.js",
@@ -20,9 +23,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/rautnavnath/mcp-server-git-show.git"
   },
-  "author": "",
+  "author": "Navnath Raut",
   "license": "MIT",
   "description": "GitShow MCP Server",
   "dependencies": {
